@@ -1,0 +1,12 @@
+name: sense-api
+version: 0.1.0
+
+authors:
+  - Jack Chen (chendo) <github@chen.do>
+
+license: MIT
+
+dependencies:
+  cossack:
+    github: greyblake/crystal-cossack
+    version: ~> 0.1
