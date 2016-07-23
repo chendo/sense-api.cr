@@ -20,8 +20,11 @@ class Sense::API
           last_updated_utc: UInt64,
           ideal_conditions: String,
         )
-      end
 
+        def last_updated
+          Time.epoch_ms(last_updated_utc).to_local
+        end
+      end
     end
 
     struct SensorDatum
