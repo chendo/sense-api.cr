@@ -8,7 +8,7 @@ Add this to your application's shard.yml:
 
 ```yaml
 dependencies:
-  cossack:
+  sense-api:
     github: chendo/sense-api.cr
     version: ~> 0.1
 ```
