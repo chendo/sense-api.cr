@@ -1,6 +1,6 @@
 version: 1.0
 shards:
   cossack:
-    github: greyblake/crystal-cossack
+    github: crystal-community/cossack
     version: 0.1.2
 
